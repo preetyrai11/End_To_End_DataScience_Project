@@ -1,0 +1,13 @@
+prefix=/Users/preetyrai/datascience_fullstack/venv
+exec_prefix=/Users/preetyrai/datascience_fullstack/venv
+libdir=/Users/preetyrai/datascience_fullstack/venv/lib
+sharedlibdir=/Users/preetyrai/datascience_fullstack/venv/lib
+includedir=/Users/preetyrai/datascience_fullstack/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
