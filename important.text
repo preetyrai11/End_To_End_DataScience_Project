@@ -1,3 +1,9 @@
 conda create -p venv python==3.8 -y
 
 
+git pull to pull changes from github
+
+
+google python setup.py 
+
+
